@@ -1,4 +1,4 @@
-Package: breedTools
+Package: PolybreedTools
 Title: Tools for use in breed composition prediction using genomic data
 Version: 0.1
 Authors@R: person("Scott", "Funkhouser", , "sfunkhouser@gmail.com", role = c("aut", "cre"))

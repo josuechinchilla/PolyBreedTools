@@ -4,9 +4,18 @@
 \alias{build_local_reference}
 \title{Build reference panel of breed probabilities}
 \usage{
-build_local_reference(chr, markers, geno_, map_, ped_ = NULL, path_ = NULL,
-  groups_ = NULL, keep_fimpute_ = FALSE, parent_ = FALSE,
-  reference_ = FALSE)
+build_local_reference(
+  chr,
+  markers,
+  geno_,
+  map_,
+  ped_ = NULL,
+  path_ = NULL,
+  groups_ = NULL,
+  keep_fimpute_ = FALSE,
+  parent_ = FALSE,
+  reference_ = FALSE
+)
 }
 \arguments{
 \item{chr}{character providing the chromosome requiring phasing}

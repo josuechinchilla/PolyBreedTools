@@ -4,8 +4,16 @@
 \alias{build_MBP}
 \title{Build reference panel for MBP (MC1R-based breed probability) calculation}
 \usage{
-build_MBP(geno, map, ped = NULL, path = NULL, groups = NULL,
-  keep_fimpute = FALSE, parent = FALSE, reference = FALSE)
+build_MBP(
+  geno,
+  map,
+  ped = NULL,
+  path = NULL,
+  groups = NULL,
+  keep_fimpute = FALSE,
+  parent = FALSE,
+  reference = FALSE
+)
 }
 \arguments{
 \item{geno}{a matrix or data.frame with genotypes of reference animals. SNPs in columns and 
