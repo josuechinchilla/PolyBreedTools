@@ -17,4 +17,4 @@ Suggests:
     testthat
 Remotes:
     funkhou9/snpTools
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.2

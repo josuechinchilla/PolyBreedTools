@@ -4,8 +4,16 @@
 \alias{build_KBP}
 \title{Build reference panel for KBP (KIT-based breed probability) calculation}
 \usage{
-build_KBP(geno, map, ped = NULL, path = NULL, groups = NULL,
-  keep_fimpute = FALSE, parent = FALSE, reference = FALSE)
+build_KBP(
+  geno,
+  map,
+  ped = NULL,
+  path = NULL,
+  groups = NULL,
+  keep_fimpute = FALSE,
+  parent = FALSE,
+  reference = FALSE
+)
 }
 \arguments{
 \item{geno}{a matrix or data.frame with genotypes of reference animals. SNPs in columns and 

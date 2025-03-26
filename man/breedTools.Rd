@@ -2,8 +2,8 @@
 % Please edit documentation in R/breedTools.R
 \docType{package}
 \name{breedTools}
-\alias{breedTools}
 \alias{breedTools-package}
+\alias{breedTools}
 \title{Estimate breed composition of unknown animals using genotyping data}
 \description{
 The breedTools package contains functions used to determine the breed/ancestry composition
@@ -18,4 +18,8 @@ There are a few ways in which breedTools can infer breed composition. These are:
    \item Estimate breed posterior probabilities based on looking at
          phased, limited regions of the genome.
 }
+}
+\author{
+\strong{Maintainer}: Scott Funkhouser \email{sfunkhouser@gmail.com}
+
 }
